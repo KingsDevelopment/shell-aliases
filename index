@@ -1,0 +1,3 @@
+source .locations
+source .docker-shortcuts
+source .dockers
