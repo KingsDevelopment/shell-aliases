@@ -1,3 +1,4 @@
 source ~/aliases/.locations
 source ~/aliases/.docker-shortcuts
 source ~/aliases/.dockers
+source ~/aliases/.android
