@@ -1,0 +1,8 @@
+## dockers
+alias docker_data='sb; cd Saitama; docker-compose -f dockerfiles/Loopback/Saitama/docker-compose.dev.yml up redis db search'
+alias docker_saitama='sb; cd Saitama; docker-compose -f dockerfiles/Loopback/Saitama/docker-compose.dev.yml up loopback'
+alias docker_sb='sb; cd SuperBuddy; docker-compose -f dockerfiles/Angular/superbuddy/docker-compose.dev.yml up'
+alias docker_bo='sb; cd BackOffice; docker-compose -f dockerfiles/Angular/backoffice/docker-compose.dev.yml up'
+alias docker_docs='sb; cd DevDocs; docker-compose -f dockerfiles/MkDocs/docker-compose.dev.yml up'
+alias docker_buddy='sb; cd BuddyApp; docker-compose -f dockerfiles/Ionic/docker-compose.dev.yml up'
+

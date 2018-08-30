@@ -1,4 +1,8 @@
 source ~/aliases/.locations
 source ~/aliases/.docker-shortcuts
-source ~/aliases/.dockers
+source ~/aliases/.sb-old.dockers
+source ~/aliases/.hero-association.dockers
+source ~/aliases/.nosh-food.dockers
+source ~/aliases/.rahmaan.dockers
+source ~/aliases/.resume.dockers
 source ~/aliases/.android

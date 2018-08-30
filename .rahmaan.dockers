@@ -1,0 +1,1 @@
+alias ng_rahmaan='rahmaan; cd web; docker-compose -f docker/docker-compose.dev.yml up;'
