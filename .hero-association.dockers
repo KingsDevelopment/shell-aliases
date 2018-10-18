@@ -1,17 +1,18 @@
 ## hero association
-alias heroes='cd /mnt/Programming/SuperBuddy/Hero-Association'
+export HEROESLOCATION='/mnt/Programming/Hero-Association'
+alias heroes='cd $HEROESLOCATION'
 
-alias hero_association='heroes; cd Booter; python boot.py;'
+alias hero_association='heroes; cd docker/boot; sh boot.sh;'
 
-alias hero_dependencies='heroes; cd Dockerfiles; docker-compose -f Loopback/Dependencies/docker-compose.dev.yml up;'
-alias hero_saitama='heroes; cd Saitama; docker-compose -f dockerfiles/Loopback/Saitama/docker-compose.dev.yml up;'
-alias hero_genos='heroes; cd Genos; docker-compose -f dockerfiles/Loopback/Genos/docker-compose.dev.yml up;'
-alias hero_mumen='heroes; cd Mumen-Rider; docker-compose -f dockerfiles/Loopback/Mumen-Rider/docker-compose.dev.yml up;'
-alias hero_sonic='heroes; cd Sonic; docker-compose -f dockerfiles/Loopback/Sonic/docker-compose.dev.yml up;'
-alias hero_tatsumaki='heroes; cd Tatsumaki; docker-compose -f dockerfiles/Loopback/Tatsumaki/docker-compose.dev.yml up;'
-alias hero_puripuri='heroes; cd PuriPuri; docker-compose -f dockerfiles/Loopback/PuriPuri/docker-compose.dev.yml up;'
+alias hero_dependencies='heroes; docker-compose -f docker/dependencies.docker-compose.yml up;'
+alias hero_saitama='heroes; docker-compose up saitama;'
+alias hero_genos='heroes; docker-compose up genos;'
+alias hero_mumen='heroes; docker-compose up mumen;'
+alias hero_sonic='heroes; docker-compose up sonic;'
+alias hero_tatsumaki='heroes; docker-compose up tatsumaki;'
+alias hero_puripuri='heroes; docker-compose up puripuri;'
 
-alias frontend='cd /mnt/Programming/SuperBuddy/Frontend'
+alias frontend='cd /mnt/Programming/Frontend'
 
 alias frontend_sb='frontend; cd SuperBuddy; docker-compose -f dockerfiles/Angular/SuperBuddy/docker-compose.dev.yml up;'
 alias frontend_bo='frontend; cd BackOffice; docker-compose -f dockerfiles/Angular/BackOffice/docker-compose.dev.yml up;'

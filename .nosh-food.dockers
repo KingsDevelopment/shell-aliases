@@ -1,3 +1,0 @@
-# nosh-food dockers
-alias nosh_dependencies='nosh; cd Dockerfiles; docker-compose -f Dependencies/docker-compose.dev.yml up'
-alias nosh_hotwing='nosh; cd Hotwing; docker-compose -f dockerfiles/Hotwing/docker-compose.dev.yml up'

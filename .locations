@@ -1,7 +1,3 @@
 # custom locations
 alias p='cd /mnt/Programming/'
-alias nosh='p; cd Nosh-Food'
-alias sb='p; cd SuperBuddy'
-alias king='p; cd Kings-Dev'
-alias heroes='sb; cd Hero-Association'
-alias rahmaan='king; cd Rahmaan'
+alias heroes='p; cd Hero-Association'
