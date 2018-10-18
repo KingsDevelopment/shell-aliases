@@ -2,7 +2,7 @@
 export HEROESLOCATION='/mnt/Programming/Hero-Association'
 alias heroes='cd $HEROESLOCATION'
 
-alias hero_association='heroes; cd docker/boot; sh boot.sh;'
+alias hero_association='heroes; ./docker/boot/boot'
 
 alias hero_dependencies='heroes; docker-compose -f docker/dependencies.docker-compose.yml up;'
 alias hero_saitama='heroes; docker-compose up saitama;'
